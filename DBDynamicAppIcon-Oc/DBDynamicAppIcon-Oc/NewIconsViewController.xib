@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewIconsViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsc-EX-1lT">
+                    <rect key="frame" x="177" y="94" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="2Zi-6t-QXT"/>
+                        <constraint firstAttribute="height" constant="60" id="mXy-OA-vna"/>
+                    </constraints>
+                    <state key="normal" image="newIcons1_60pt.png"/>
+                    <connections>
+                        <action selector="clickNewIocns1Btn:" destination="-1" eventType="touchUpInside" id="Hu1-nF-ZMu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmK-pd-9dt">
+                    <rect key="frame" x="177" y="194" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="AmP-bE-rH4"/>
+                    </constraints>
+                    <state key="normal" image="newIcons2_60pt.png"/>
+                    <connections>
+                        <action selector="clickNewIocns2Btn:" destination="-1" eventType="touchUpInside" id="g8F-or-Jds"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBH-6v-IvL">
+                    <rect key="frame" x="177" y="294" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="7Fp-hH-bsP"/>
+                        <constraint firstAttribute="width" constant="60" id="lar-CX-siV"/>
+                    </constraints>
+                    <state key="normal" image="newIcons3_60pt.png"/>
+                    <connections>
+                        <action selector="clickNewIocns3Btn:" destination="-1" eventType="touchUpInside" id="yCs-YE-yUl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Hk-a0-5fQ">
+                    <rect key="frame" x="177" y="394" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="M8G-86-Ucb"/>
+                        <constraint firstAttribute="height" constant="60" id="nog-2o-ePf"/>
+                    </constraints>
+                    <state key="normal" image="newIcons4_60pt.png"/>
+                    <connections>
+                        <action selector="clickNewIocns4Btn:" destination="-1" eventType="touchUpInside" id="89g-el-1QR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0It-AN-aWJ">
+                    <rect key="frame" x="177" y="494" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="nkN-tP-GkW"/>
+                        <constraint firstAttribute="height" constant="60" id="w5G-6H-5wH"/>
+                    </constraints>
+                    <state key="normal" image="newIcons5_60pt.png"/>
+                    <connections>
+                        <action selector="clickNewIocns5Btn:" destination="-1" eventType="touchUpInside" id="ic0-Qd-DWT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="0It-AN-aWJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2Gp-Di-8kJ"/>
+                <constraint firstItem="qmK-pd-9dt" firstAttribute="top" secondItem="xsc-EX-1lT" secondAttribute="bottom" constant="40" id="6Tm-pp-ha7"/>
+                <constraint firstItem="SBH-6v-IvL" firstAttribute="top" secondItem="qmK-pd-9dt" secondAttribute="bottom" constant="40" id="IRG-z3-9YI"/>
+                <constraint firstItem="qmK-pd-9dt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ki5-Fa-ngP"/>
+                <constraint firstItem="SBH-6v-IvL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LEa-QX-Lom"/>
+                <constraint firstItem="1Hk-a0-5fQ" firstAttribute="top" secondItem="SBH-6v-IvL" secondAttribute="bottom" constant="40" id="MUF-a7-f7V"/>
+                <constraint firstItem="xsc-EX-1lT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ULn-IE-Dco"/>
+                <constraint firstItem="xsc-EX-1lT" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="50" id="iuT-5N-rbL"/>
+                <constraint firstItem="0It-AN-aWJ" firstAttribute="top" secondItem="1Hk-a0-5fQ" secondAttribute="bottom" constant="40" id="o9b-nk-4pJ"/>
+                <constraint firstItem="1Hk-a0-5fQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zZK-1E-8mh"/>
+            </constraints>
+            <point key="canvasLocation" x="-164" y="111"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="newIcons1_60pt.png" width="60" height="60"/>
+        <image name="newIcons2_60pt.png" width="60" height="60"/>
+        <image name="newIcons3_60pt.png" width="60" height="60"/>
+        <image name="newIcons4_60pt.png" width="60" height="60"/>
+        <image name="newIcons5_60pt.png" width="60" height="60"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
