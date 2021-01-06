@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DBDynamicAppIcon_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIb-Lc-Ij4">
+                                <rect key="frame" x="177" y="124" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ZPE-Q1-HfG"/>
+                                    <constraint firstAttribute="width" constant="60" id="hvp-mj-7Fg"/>
+                                </constraints>
+                                <state key="normal" image="newIcons1_60pt.png"/>
+                                <connections>
+                                    <action selector="clickNewIconsBt1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uGk-fb-m0u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9I9-df-TKN">
+                                <rect key="frame" x="177" y="224" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="9YC-UV-8ka"/>
+                                    <constraint firstAttribute="width" constant="60" id="cuk-f3-nLS"/>
+                                </constraints>
+                                <state key="normal" image="newIcons2_60pt.png"/>
+                                <connections>
+                                    <action selector="clickNewIconsBt2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ecY-gl-Zpb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMr-eu-XVb">
+                                <rect key="frame" x="177" y="324" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="bNP-Te-31p"/>
+                                    <constraint firstAttribute="height" constant="60" id="qft-Wy-GrC"/>
+                                </constraints>
+                                <state key="normal" image="newIcons3_60pt.png"/>
+                                <connections>
+                                    <action selector="clickNewIconsBt3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G19-yL-fSs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYf-ET-APe">
+                                <rect key="frame" x="150" y="424" width="114" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="9qx-Oz-We4"/>
+                                    <constraint firstAttribute="height" constant="60" id="uyP-rU-cHt"/>
+                                </constraints>
+                                <state key="normal" image="newIcons4_60pt.png"/>
+                                <connections>
+                                    <action selector="clickNewIconsBt4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EF3-P7-Fvd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frl-Kp-yEu">
+                                <rect key="frame" x="177" y="524" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="SlD-MP-sBg"/>
+                                    <constraint firstAttribute="height" constant="60" id="hTS-Wy-fhv"/>
+                                </constraints>
+                                <state key="normal" image="newIcons5_60pt.png"/>
+                                <connections>
+                                    <action selector="clickNewIconsBt5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IaP-9n-cDs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HMr-eu-XVb" firstAttribute="top" secondItem="9I9-df-TKN" secondAttribute="bottom" constant="40" id="02m-4A-Mcu"/>
+                            <constraint firstItem="frl-Kp-yEu" firstAttribute="top" secondItem="GYf-ET-APe" secondAttribute="bottom" constant="40" id="B6y-NM-Uw1"/>
+                            <constraint firstItem="GYf-ET-APe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C40-TI-iGa"/>
+                            <constraint firstItem="tIb-Lc-Ij4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="Qfu-W7-2py"/>
+                            <constraint firstItem="9I9-df-TKN" firstAttribute="top" secondItem="tIb-Lc-Ij4" secondAttribute="bottom" constant="40" id="bvV-WS-ftm"/>
+                            <constraint firstItem="GYf-ET-APe" firstAttribute="top" secondItem="HMr-eu-XVb" secondAttribute="bottom" constant="40" id="nM5-jd-y85"/>
+                            <constraint firstItem="frl-Kp-yEu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qb1-9k-MoD"/>
+                            <constraint firstItem="9I9-df-TKN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t5a-cZ-QIJ"/>
+                            <constraint firstItem="HMr-eu-XVb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w0G-JZ-i8m"/>
+                            <constraint firstItem="tIb-Lc-Ij4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wyc-b1-2Ye"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95.652173913043484" y="92.410714285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="newIcons1_60pt.png" width="60" height="60"/>
+        <image name="newIcons2_60pt.png" width="60" height="60"/>
+        <image name="newIcons3_60pt.png" width="60" height="60"/>
+        <image name="newIcons4_60pt.png" width="60" height="60"/>
+        <image name="newIcons5_60pt.png" width="60" height="60"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
